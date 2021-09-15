@@ -12,6 +12,13 @@ common {
   margin: 0; 
 }
 
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; 
+}
+
 
 
 .item {
@@ -27,10 +34,15 @@ common {
 
 
 /* footer */
+p  { text-align: center }
 
 .call-to-action {
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: baseline; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px
   margin: 0; 
 }
